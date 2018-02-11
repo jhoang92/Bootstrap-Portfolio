@@ -1,0 +1,169 @@
+head{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    background: #4aaaa5;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    height: 30px;
+    color: #fff;
+    position: relative;
+    font-size: 36px;
+    left: 100px;
+}
+
+
+ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    right: 30px;
+}
+
+li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff
+}
+
+ul a:hover  {
+    background: #4aaaa5;
+    color: #fff;
+}
+
+.wrapper {
+    margin 0 auto 0 auto;
+    overflow: auto;
+}
+
+.col-md-4 {
+    background: #fff;
+    width: 610px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    left: 100px;
+    margin: 20px 0 20px 20px;
+    overflow: auto;
+    position: relative;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+.text {
+    color: #aaa;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-md-3 {
+    position: relative;
+    left: 150px;
+    top: 10px;
+    margin: 10px 20px 20px 0;
+    background: #fff;
+    overflow: auto; 
+    height: 35%;
+    text-align: center;
+    color: #4aaaa5;
+    font-size: 28px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+}
+
+.page-footer {
+    text-align: center;
+    font-size: 14px;
+    bottom: 0px;
+    width: 100%;
+    margin: auto 0 auto 0;
+    border-top: 5px solid #4aaaa5;
+    background: #666666;
+    color: #fff;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pic {
+    margin: 10px 20px 20px 0;
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+.portfolio {
+    float: center;
+    margin: 0 20px 20px 50px;
+}
+
+form {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+hr {
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-4 {
+        background: #fff;
+        width: auto;
+        padding: 20px;
+        border: 1px solid #dddddd;
+        overflow: auto;
+        margin: auto 20px auto 20px;
+        position: inherit;
+    }
+    
+    .col-md-3 {
+        margin: 20px;
+        background: #fff;
+        overflow: auto;
+        height: 35%;
+        text-align: center;
+        font-size: 28px;
+        padding: 0 20px 20px 20px;
+        border: 1px solid #dddddd;
+        position: inherit;
+    }
+
+    nav {
+        margin: 0 5px 0 5px;
+        border: 1px solid #ddd;
+    }
+
+    .navbar-brand {
+        width: 100%;
+        text-align: center;
+        padding: 20px 30px 30px 30px;
+        height: 30px;
+        color: #fff;
+        position: inherit;
+        font-size: 40px;
+    }
+    
+    input, textarea {
+        width: 70%;
+    }
+
+    form {
+        padding: 0 0 0 20px;
+    }
+  }
+  
